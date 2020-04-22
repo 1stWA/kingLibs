@@ -1,0 +1,90 @@
+.container {
+    margin: 20px auto;
+    width: 500px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    }
+
+.container span {
+    float: right;
+    margin-top: 5px;
+    }
+
+.centerDiv {
+    text-align: center;
+}
+
+p {
+  text-align: center;
+}
+
+h1, h2 {
+    margin-top: 0;
+}
+
+h1 {
+    font-family: 'Permanent Marker', cursive;
+    letter-spacing: 3px;
+    font-size: 69px;
+    margin-bottom: 0;
+}
+
+h2 {
+    font-size: 18px;
+    font-weight: normal;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    margin-bottom: 40px;
+}
+
+input {
+    width: 200px;
+    height: 30px;
+    font-size: 18px;
+    background: #f2f2f2;
+    border-style: solid;
+    border-width: 0px 1px 0px 1px;
+    border-color: lightgreen;
+    text-align: center;
+    margin: 0 20px;
+}
+
+button {
+    background-color: #f2f2f2;
+    border: 0px;
+    font-size: 14px;
+    border-radius: 5px;
+    padding: 7px 10px;
+}
+
+#go {
+    background-color: lightgreen;
+    margin-left: 20px;
+}
+
+.mainStory {
+    width: 50%;
+    margin: auto;
+    margin-top: 60px;
+    background-color: #e6e6e6;
+    padding: 20px 40px;
+    border-radius: 10px;
+}
+
+.mainStory p {
+    text-align: left;
+    font-family: serif;
+    font-size: 22px;
+    text-transform: none;
+}
+
+.hidden {
+    visibility: hidden;
+}
